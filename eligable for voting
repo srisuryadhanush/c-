@@ -5,8 +5,8 @@
   string str = "";
   if(age >= 18)
     str = "Eligible for Voting! ";
-  else
-    str = " not Eligible  for Voting! ";
+  else if(age<=0)
+  str="invalid"
 	return str;
 }
  int main()
